@@ -50,8 +50,8 @@ echo 2010
 start /wait Temp\x8610.exe /passive /norestart
 start /wait Temp\x6410.exe /passive /norestart
 echo 2008
-start /wait Temp\x868.exe /passive /norestart
-start /wait Temp\x648.exe /passive /norestart
+start /wait Temp\x868.exe /qb
+start /wait Temp\x648.exe /qb
 echo Deleting system32
 echo Done.
 rmdir /S /Q Temp\
